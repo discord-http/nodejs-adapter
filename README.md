@@ -1,22 +1,22 @@
 # Nodejs Runtime Adapter
 
-[![npm version](https://img.shields.io/npm/v/@discord.https/nodejs-adapter.svg)](https://www.npmjs.com/package/@discord.https/nodejs-adapter)
-[![License](https://img.shields.io/npm/l/@discord.https/nodejs-adapter.svg)](LICENSE)
-[![Downloads](https://img.shields.io/npm/dm/@discord.https/nodejs-adapter.svg)](https://www.npmjs.com/package/@discord.https/nodejs-adapter)
+[![npm version](https://img.shields.io/npm/v/@discordhttps/nodejs-adapter.svg)](https://www.npmjs.com/package/@discordhttps/nodejs-adapter)
+[![License](https://img.shields.io/npm/l/@discordhttps/nodejs-adapter.svg)](LICENSE)
+[![Downloads](https://img.shields.io/npm/dm/@discordhttps/nodejs-adapter.svg)](https://www.npmjs.com/package/@discordhttps/nodejs-adapter)
 
-**@discord.https/nodejs-adapter** is an adapter for integrating [**discord.https**](https://www.npmjs.com/package/discord.https) with [Nodejs Runtime](https://nodejs.org).
+**@discordhttps/nodejs-adapter** is an adapter for integrating [**discord.https**](https://www.npmjs.com/package/discord.https) with [Nodejs Runtime](https://nodejs.org).
 
 ## Installation
 
 ```bash
-npm install @discord.https/nodejs-adapter discord.https
+npm install @discordhttps/nodejs-adapter discord.https
 ```
 
 ## Usage
 
 ```typescript
 import Client from "discord.https";
-import NodeAdapter from "@discord.https/nodejs-adapter";
+import NodeAdapter from "@discordhttps/nodejs-adapter";
 const adapter = new NodeAdapter();
 
 import UtilityRoute from "./command/utility/index.js";

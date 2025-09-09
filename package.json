@@ -1,5 +1,5 @@
 {
-    "name": "@discord.https/nodejs-adapter",
+    "name": "@discordhttps/nodejs-adapter",
     "version": "1.0.2",
     "description": "An adapter for integrating discord.https with nodejs runtime.",
     "main": "./dist/index.js",
